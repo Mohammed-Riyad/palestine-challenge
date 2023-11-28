@@ -1,0 +1,119 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.material-symbols-outlined {
+  font-size: 34px;
+  text-align: center;
+  line-height: 1.6;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+.landing {
+  display: flex;
+  background-image: url(../images/alquds.jpeg);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.landing .intro-text {
+  position: absolute;
+  border-radius: 15%;
+  background-color: #fff;
+  width: 80%;
+  height: 45%;
+  transform: translateX(-50%);
+  top: 50%;
+  left: 50%;
+}
+.landing .intro-text img {
+  position: absolute;
+  width: 180px;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+}
+.landing .intro-text h4 {
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  margin: -5px;
+  left: 50%;
+  top: 32%;
+  font-weight: 500;
+}
+.landing .intro-text h2 {
+  color: white;
+  position: relative;
+  bottom: 100%;
+  font-weight: 400;
+  left: -15px;
+  font-style: normal;
+  font-size: 24px;
+}
+.landing .intro-text p {
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  margin: -5px;
+  left: 50%;
+  right: -30%;
+  top: 40%;
+  line-height: 1.4;
+  font-weight: 400;
+  color: grey;
+  direction: rtl;
+}
+
+.landing .nav-dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 83%;
+  display: flex;
+}
+.landing .nav-dots li:not(.active) {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 7px;
+  background-color: #a5d5c5;
+}
+.landing .nav-dots .active {
+  outline: 2px solid #049761;
+  width: 5px;
+  height: 5px;
+  margin-right: 7px;
+  background-color: #faf4f6;
+  border-radius: 50%;
+}
+ul {
+  list-style: none;
+}
+
+.next {
+  display: inline-block;
+  position: absolute;
+  outline: none;
+  border-radius: 25%;
+  border: 1px solid transparent;
+  text-align: center;
+  color: #fff;
+  background-color: #019b6a;
+  transform: translateX(-50%);
+  height: 55px;
+  left: 50%;
+  box-shadow:  grey 0px 30px 60px -12px inset, grey 0px 18px 36px -18px inset;
+  width: 55px;
+  top: 87%;
+}
